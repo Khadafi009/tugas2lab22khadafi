@@ -82,4 +82,15 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     backgroundColor: '#ddd',
   },
+
+  grid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    width: '100%',
+  },
+  image: {
+    width: 100,
+    height: 100,
+    margin: 5,
+  },
 });
