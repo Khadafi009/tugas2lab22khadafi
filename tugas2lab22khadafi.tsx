@@ -76,8 +76,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   image: {
-    width: imageSize,
-    height: imageSize,
+   
+    width: 100,
+    height: 100,
     margin: 5,
     borderRadius: 8,
     backgroundColor: '#ddd',
@@ -87,10 +88,5 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     width: '100%',
-  },
-  image: {
-    width: 100,
-    height: 100,
-    margin: 5,
   },
 });
